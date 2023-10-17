@@ -1,0 +1,3 @@
+//deletes all documents in the collection school that matches
+
+db.school.deleteMany({ "name" : "Holberton school" })
